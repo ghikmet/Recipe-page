@@ -1,0 +1,676 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Outfit:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Young+Serif&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #FFF7FB;
+    max-width: 375px;
+    width: 100%;
+    font-family: 'Outfit', sans-serif;
+    font-family: 'Young serif', sans-serif;
+    font-size: 16px;
+}
+
+.container {
+    width: 375px;
+    height: 2043px;
+}
+
+.card {
+    width: 375px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.card_header {
+    width: 100%;
+    height: 171px;
+}
+
+.header_image {
+    width: 100%;
+    height: 171px;
+}
+
+.card_text-content {
+    width: 375px;
+    height: 1872px;
+    margin: 40px 32px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.card_text-content_title {
+    width: 311px;
+    height: 216px;
+    margin: 0 32px;
+}
+
+.card_title {
+    width: 311px;
+    height: 72px;
+    font-size: 36px;
+    line-height: 100%;
+    color: #312E2C;
+    margin-bottom: 24px;
+}
+
+.card_text {
+    width: 311px;
+    height: 120px;
+    font-size: 16px;
+    line-height: 150%;
+    color: #5F564D;
+}
+
+.card_text-content_preparation {
+    width: 311px;
+    height: 196px;
+    margin: 32px;
+}
+
+.preparation_title {
+    width: calc(100% - 48px);
+    height: 20px;
+    margin: 24px 24px 16px;
+    line-height: 1;
+    padding-bottom: 25px;
+    color: #7A284E;
+}
+
+.preparation_info_list {
+    width: 239px;
+    height: 112px;
+    margin: 0 24px 24px 48px;
+}
+
+.preparation_info_list_item {
+    width: 239px;
+    height: 24px;
+    margin-bottom: 8px;
+}
+
+.preparation_info_list_item:first-of-type {
+    height: 48px;
+}
+
+.preparation_info_list_item:last-of-type {
+    margin-bottom: 0;
+}
+
+.list_item_text {
+    width: 223px;
+    font-size: 16px;
+    line-height: 150%;
+    font-weight: normal;
+    padding-left: 12px;
+    color: #5F564D;
+}
+
+.preparation_span {
+    font-size: 16px;
+    line-height: 150%;
+    font-weight: bold;
+    color: #312E2C;
+}
+
+.card_text-content_ingredients {
+    width: 311px;
+    height: 228px;
+    margin: 0 32px;
+}
+
+.ingredients_title {
+    width: 311px;
+    height: 28px;
+    font-size: 28px;
+    line-height: 100%;
+    color: #854632;
+}
+
+.ingredients_info_list {
+    width: 100%;
+    height: 176px;
+    list-style: none;
+    margin: 24px auto 0;
+}
+
+.ingredients_info_list_item {
+    width: 100%;
+    height: 24px;
+    margin-bottom: 8px;
+    display: flex;
+    align-items: center;
+}
+
+.ingredients_info_list_item:last-of-type {
+    width: 311px;
+    height: 48px;
+    margin: 0 auto;
+    margin-top: -12px;
+}
+
+.ingredients_span_box {
+    width: 16px;
+    height: 24px;
+    margin-left: 8px;
+    display: flex;
+    align-items: center;
+}
+
+.ingredients_info_list_item:last-child .ingredients_span_box {
+    margin-top: 24px;
+}
+
+.ingredients_span_ellipse {
+    width: 4px;
+    height: 4px;
+    border-radius: 50% 50%;
+    background-color: #854632;
+}
+
+.ingredients_list_item_text {
+    width: 271px;
+    height: 24px;
+    padding-left: 12px;
+    color: #5F564D;
+}
+
+.line {
+    width: 311px;
+    margin: 32px 0;
+    border: 1px solid #E3DDD7;
+}
+
+.instructions {
+    width: 311px;
+    height: 668px;
+    margin: 0 auto;
+    
+}
+
+.instructions_title {
+    width: 311px;
+    height: 28px;
+    font-size: 28px;
+    line-height: 100%;
+    color: #854632;
+    margin-bottom: 24px;
+}
+
+.instructions_list {
+    width: 311px;
+    height: 598px;
+}
+
+.instructions_list_item {
+    width: 311px;
+    margin-bottom: 8px;
+    list-style: none;
+    display: flex;
+}
+
+.instructions_list_item:first-of-type {
+    height: 114px;
+    margin-bottom: 0;
+}
+
+.instructions_list_item:last-of-type {
+    margin-bottom: 0;
+}
+
+.instructions_list_item_number {
+    width: 16px;
+    height: 24px;
+    margin-left: 5px;
+    padding-left: 2.64px;
+    font-size: 16px;
+    line-height: 150%;
+    font-weight: bold;
+    color: #854632;
+}
+
+.instructions_span {
+    font-size: 16px;
+    line-height: 150%;
+    font-weight: bold;
+    padding-right: 5px;
+    color: #5F564D;
+}
+
+.instructions_list_item_text {
+    font-size: 16px;
+    line-height: 135%;
+    color: #5F564D;
+    padding-left: 20px;
+}
+
+.nutrition {
+    width: 311px;
+    height: 292px;
+    margin: 0 auto;
+}
+
+.nutrition_title {
+    width: 311px;
+    height: 28px;
+    font-size: 28px;
+    line-height: 100%;
+    color: #854632;
+    margin-bottom: 24px;
+}
+
+.nutrition_text {
+    width: 311px;
+    height: 48px;
+    font-size: 14px;
+    line-height: 150%;
+    margin-bottom: 24px;
+}
+
+.nutrition_info_list {
+    width: 287px;
+    height: 168px;
+    margin: 0 24px;
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+}
+
+.nutrition_info_list_item {
+    width: 311px;
+    height: 24px;
+    display: flex;
+}
+
+.nutrition_info_list_item-text {
+    width: 115.5px;
+    height: 24px;
+}
+
+.nutrition_info_list_item-text-2 {
+    width: 115.5px;
+    height: 24px;
+}
+
+.nutrition_line {
+    width: 311px;
+    margin: 11px auto;
+    border: 1px solid #E3DDD7;
+}
+
+.card_footer {
+    width: 311px;
+    height: 40px;
+    margin: 0 auto;
+}
+
+.card_footer_text {
+    width: 311px;
+    height: 40px;
+    text-align: center;
+    padding-top: 6.5px;
+    font-size: 18px;
+    line-height: 150%;
+    font-weight: bold;
+    color: #74921a;
+}
+
+@media (min-width: 768px) {
+    body {
+        min-width: 768px;
+        width: 100%;
+        background-color: #F3E5D7;
+    }
+    .container {
+        width: 768px;
+        height: 2100px;
+        background-color: #F3E5D7;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .card {
+        width: 616px;
+        height: 1844px;
+        margin: 128px 76px;
+        background-color: white;        
+    }
+
+    .card_header {
+        width: calc(100% - 80px);
+        height: 300px;
+        margin-top: 40px;
+    }
+
+    .header_image {
+        width: 100%;
+        height: 300px;        
+    }
+
+    .card_text-content {
+        width: 536px;
+        height: 1424px;
+    }
+
+    .card_text-content_title {
+        width: 100%;
+        height: 136px;
+    }
+
+    .card_title {
+        width: 100%;
+        height: 40px;
+    }
+
+    .card_text {
+        width: 100%;
+        height: 72px;
+        letter-spacing: 0;
+    }
+
+    .card_text-content_preparation {
+        width: 100%;
+        height: 172px;
+        box-sizing: border-box;
+    }
+
+    .preparation_title {
+        width: 488px;
+        height: 20px;
+    }
+
+    .preparation_info_list {
+        width: 464px;
+        height: 88px;
+    }
+
+    .preparation_info_list_item {
+        width: 488px;
+    }
+
+    .list_item_text {
+        width: 488px;
+        height: 24pxpx;
+    }
+
+    .preparation_info_list_item:first-of-type {
+        height: 24px;
+    }
+
+    .card_text-content_ingredients {
+        width: 100%;
+        height: 204px;
+    }
+
+    .ingredients_title {
+        width: 100%;
+        height: 28px;
+    }
+
+    .ingredients_info_list {
+        width: calc(100% - 24px);
+        height: 152px;
+    }
+
+    .ingredients_info_list_item {
+        width: 100%;
+        height: 24px;
+    }
+
+    .ingredients_info_list_item:last-child {
+        padding-right: 10px;
+    }
+
+    .ingredients_span_box {
+        margin-left: -2px;
+    }
+
+    .ingredients_info_list_item:last-child .ingredients_span_box {
+        margin-top: 0;
+    }
+
+    .ingredients_list_item_text {
+        width: 100%;
+        letter-spacing: -1.2px;
+    }
+
+    .ingredients_info_list_item:last-of-type {
+        width: 536px;
+        height: 24px;
+        margin-top: 0;
+    }
+
+    .line {
+        width: 536px;
+        margin: 32px 0;
+    }
+
+    .instructions {
+        width: 536px;
+        height: 428px;
+    }
+
+    .instructions_title {
+        width: 536px;
+    }
+
+    .instructions_list {
+        width: 100%;
+        height: 376px;
+    }
+
+    .instructions_list_item {
+        width: 100%;
+        height: 72px;
+    }
+
+    .instructions_list_item:first-of-type {
+        height: 72px;
+        margin-bottom: 8px;
+    }
+
+    .instructions_list_item:nth-of-type(2),
+    .instructions_list_item:nth-of-type(3) {
+        height: 48px;
+    }
+
+    .instructions_list_item:last-of-type {
+        height: 24px;
+    }
+
+    .instructions_list_item_text {
+        letter-spacing: -1.2px;
+    }
+
+    .nutrition {
+        width: 536px;
+        height: 292px;
+    }
+
+    .nutrition_title {
+        width: 100%;
+        height: 28px;
+    }
+
+    .nutrition_text {
+        width: 100%;
+        height: 28px;
+    }
+
+    .nutrition_info_list {
+        width: 100%;
+        height: 168px;
+        margin: 0;
+    }
+    .nutrition_info_list_item {
+        width: 536px;
+        height: 24px;
+        margin-left: 32px;
+        margin-right: 32px;
+    }
+
+    .nutrition_info_list_item-text {
+        width: 228px;
+        height: 24px;
+        padding-left: 32px;
+    }
+
+    .nutrition_info_list_item-text-2 {
+        width: 228px;
+        height: 24px;
+        padding-left: 16px;
+    }
+
+    .card_footer {
+        width: 536px;
+        height: 40px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+}
+
+@media (min-width: 1440px) {
+    body {
+        min-width: 1440px;
+        width: 100%;
+    }
+
+    .container {
+        width: 1440px;
+        height: 1956px;
+    }
+
+    .card {
+        width: 736px;
+        height: 1700px;
+        margin: 128px 352px;
+    }
+
+    .card_header {
+        width: 656px;
+        height: 300px;
+    }
+
+    .card_text-content {
+        width: 656px;
+        height: 1280px;
+    }
+
+    .card_text-content_title {
+        width: 100%;
+        height: 112px;
+    }
+
+    .card_title {
+        width: 656px;
+    }
+
+    .card_text {
+        width: 656px;
+        height: 48px;
+        color: #5F564D;
+        letter-spacing: -1.2px;
+    }
+
+    .instructions {
+        width: 656px;
+        height: 332px;
+        padding: 0;
+        margin: 0;
+    }
+
+    .instructions_title {
+        width: 656px;
+        height: 28px;
+    }
+
+    .instructions_list {
+        width: 656px;
+        height: 280px;
+    }
+
+    .instructions_list_item {
+        width: 656px;
+        height: 48px;
+        margin-right: 0;
+    }
+
+    .instructions_list_item:first-of-type {
+        height: 48px;
+        margin-bottom: 8px;
+    }
+
+    .instructions_list_item:nth-of-type(2),
+    .instructions_list_item:nth-of-type(6) {
+        height: 24px;
+    }
+
+    .instructions_list_item_text {
+        width: 616px;
+        height: 48px;
+    }
+
+    .instructions_list_item_text:nth-of-type(2),
+    .instructions_list_item_text:nth-of-type(6) {
+        height: 24px;
+    }
+
+    .nutrition {
+        width: 656px;
+        height: 268px;
+    }
+
+    .nutrition_title {
+        width: 656px;
+        height: 28px;
+    }
+
+    .nutrition_text {
+        width: 656px;
+        height: 24px;
+    }
+
+    .nutrition_info_list {
+        width: 656px;
+        height: 168px;
+        margin: 0;
+        padding: 0;
+    }
+
+    .nutrition_info_list_item {
+        width: 656px;
+        height: 24px;
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    .nutrition_info_list_item-text,
+    .nutrition_info_list_item-text-2 {
+        width: 288px;
+        height: 24px;
+    }
+
+    .nutrition_line {
+        width: 656px;
+        margin: 11px 0;
+    }
+
+    .nutrition_line:last-of-type {
+        margin: 0;
+    }
+
+    .card_footer {
+        width: 656px;
+    }
+}
