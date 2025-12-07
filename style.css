@@ -81,7 +81,8 @@ body {
     width: calc(100% - 48px);
     height: 20px;
     margin: 24px 24px 16px;
-    line-height: 1;
+    font-size: 20px;
+    line-height: 100%;
     padding-bottom: 25px;
     color: #7A284E;
 }
@@ -326,7 +327,6 @@ body {
 
 @media (min-width: 768px) {
     body {
-        min-width: 768px;
         width: 100%;
         background-color: #F3E5D7;
     }
@@ -542,13 +542,15 @@ body {
 
 @media (min-width: 1440px) {
     body {
-        min-width: 1440px;
         width: 100%;
     }
 
     .container {
         width: 1440px;
         height: 1956px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
     }
 
     .card {
